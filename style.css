@@ -1,0 +1,46 @@
+body{
+    background-color: black;
+}
+.container {
+    margin-left: 22%;
+    display: flex;
+    flex-wrap: wrap;
+    width: 1000px;
+}
+
+.box {
+    width: 110px;
+    height: 100px;
+    border: 0.5px solid black;
+    
+   }
+.botn{
+       display: flex;
+        justify-content: center;
+        margin-top: 20px;
+}
+.button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.button-container button {
+    padding: 10px 20px;
+    background-color: #4c8bf5;
+    color: white;
+    border: none;
+    border-radius: 30%;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.button-container button:hover {
+    background-color: #2563eb;
+}
+#btnu{
+    margin-right: 10%;
+}
+
+
